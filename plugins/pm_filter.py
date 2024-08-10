@@ -140,7 +140,7 @@ async def private_filter(client, message):
         user_id = message.from_user.id
         if content.startswith("/") or content.startswith("#"): return  # ignore commands and hashtags
         if user_id in ADMINS: return # ignore admins
-        await message.reply_text("<b>Yᴏᴜ ᴡᴏɴ'ᴛ ɢᴇᴛ ᴍᴏᴠɪᴇꜱ ʜᴇʀᴇ, ʏᴏᴜ'ʟʟ ʜᴀᴠᴇ ᴛᴏ ᴀꜱᴋ ғᴏʀ ᴛʜᴇᴍ ɪɴ ᴀ ɢʀᴏᴜᴘ. @bn_files_group</b>")
+        await message.reply_text("<b>Yᴏᴜ ᴡᴏɴ'ᴛ ɢᴇᴛ ᴍᴏᴠɪᴇꜱ ʜᴇʀᴇ, ʏᴏᴜ'ʟʟ ʜᴀᴠᴇ ᴛᴏ ᴀꜱᴋ ғᴏʀ ᴛʜᴇᴍ ɪɴ ᴀ ɢʀᴏᴜᴘ. @Moviesrequst1</b>")
         await client.send_message(
             chat_id=LOG_CHANNEL,
             text=f"<b>#𝐏𝐌_𝐌𝐒𝐆\n\nNᴀᴍᴇ : {user}\n\nID : {user_id}\n\nMᴇssᴀɢᴇ : {content}</b>"
