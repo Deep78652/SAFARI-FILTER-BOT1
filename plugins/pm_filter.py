@@ -1955,7 +1955,7 @@ async def auto_filter(client, msg, spoll=False):
                 return
             if len(message.text) < 100:
                 search = message.text
-                m=await message.reply_sticker(sticker="CAACAgQAAxkBAAIgaWaBHvAE6a3gfP5DVkQvNhPFUXe7AAJZHwACI9MgUGEdAAGqibr8OTQE",
+                m=await message.reply_sticker(sticker="CAACAgQAAxkBAAIlW2bGG5bGDyrX7OqE_xTZQPljmRNfAAJqEwAC7JbIUfIqug5k3gFzNAQ",
                 reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("🅿︎🅻︎🅴︎🅰︎🆂︎🅴︎  🆆︎🅰︎🅸︎🆃︎", url=CHNL_LNK)]]))
                 search = search.lower()
                 find = search.split(" ")
@@ -1986,7 +1986,7 @@ async def auto_filter(client, msg, spoll=False):
         else:
             message = msg.message.reply_to_message  # msg will be callback query
             search, files, offset, total_results = spoll
-            m=await message.reply_sticker(sticker="CAACAgQAAxkBAAIgaWaBHvAE6a3gfP5DVkQvNhPFUXe7AAJZHwACI9MgUGEdAAGqibr8OTQE",
+            m=await message.reply_sticker(sticker="CAACAgQAAxkBAAIlW2bGG5bGDyrX7OqE_xTZQPljmRNfAAJqEwAC7JbIUfIqug5k3gFzNAQ",
             reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("🅿︎🅻︎🅴︎🅰︎🆂︎🅴︎  🆆︎🅰︎🅸︎🆃︎", url=CHNL_LNK)]]))
             settings = await get_settings(message.chat.id)
         key = f"{message.chat.id}-{message.id}"
