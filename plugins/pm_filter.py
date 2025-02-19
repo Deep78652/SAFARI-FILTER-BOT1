@@ -218,7 +218,7 @@ async def next_page(bot, query):
         btn.insert(0, [
             InlineKeyboardButton("Lᴀɴɢᴜᴀɢᴇ", callback_data=f"select_lang#{req}"),
             InlineKeyboardButton("Qᴜᴀʟɪᴛʏꜱ", callback_data=f"Backup625#{req}"),
-            InlineKeyboardButton("Sᴇᴀꜱᴏɴꜱ", callback_data=f"Deep25K#{req}")
+            InlineKeyboardButton("Sᴇᴀꜱᴏɴꜱ", callback_data=f"Deep2213K#{req}")
         ])
         btn.insert(0, [
             InlineKeyboardButton("! Sᴇɴᴅ Aʟʟ Tᴏ PM !", callback_data=f"sendfiles#{key}"),  
@@ -228,7 +228,7 @@ async def next_page(bot, query):
         btn.insert(0, [
             InlineKeyboardButton("Lᴀɴɢᴜᴀɢᴇ", callback_data=f"select_lang#{req}"),
             InlineKeyboardButton("Qᴜᴀʟɪᴛʏꜱ", callback_data=f"Backup625#{req}"),
-            InlineKeyboardButton("Sᴇᴀꜱᴏɴꜱ", callback_data=f"Deep25K#{req}")
+            InlineKeyboardButton("Sᴇᴀꜱᴏɴꜱ", callback_data=f"Deep2213K#{req}")
         ])
         btn.insert(0, [
             InlineKeyboardButton("! Sᴇɴᴅ Aʟʟ Tᴏ PM !", callback_data=f"sendfiles#{key}"),  
@@ -348,7 +348,7 @@ async def language_check(bot, query):
             btn.insert(0, [
                 InlineKeyboardButton("! Sᴇʟᴇᴄᴛ Aɢᴀɪɴ !", callback_data=f"select_lang#{userid}"),
                 InlineKeyboardButton("Qᴜᴀʟɪᴛʏꜱ", callback_data=f"Backup625#{userid}"),
-                InlineKeyboardButton("Sᴇᴀꜱᴏɴꜱ", callback_data=f"Deep25K#{userid}")
+                InlineKeyboardButton("Sᴇᴀꜱᴏɴꜱ", callback_data=f"Deep2213K#{userid}")
             ])
             btn.insert(0, [
                 InlineKeyboardButton("! Sᴇɴᴅ Aʟʟ Tᴏ PM !", callback_data=f"sendfiles#{key}")
@@ -358,7 +358,7 @@ async def language_check(bot, query):
             btn.insert(0, [
                 InlineKeyboardButton("Lᴀɴɢᴜᴀɢᴇ", callback_data=f"select_lang#{userid}"),
                 InlineKeyboardButton("Qᴜᴀʟɪᴛʏꜱ", callback_data=f"Backup625#{userid}"),
-                InlineKeyboardButton("Sᴇʟᴇᴄᴛ Aɢᴀɪɴ", callback_data=f"Deep25K#{userid}")
+                InlineKeyboardButton("Sᴇʟᴇᴄᴛ Aɢᴀɪɴ", callback_data=f"Deep2213K#{userid}")
             ])
             btn.insert(0, [
                 InlineKeyboardButton("! Sᴇɴᴅ Aʟʟ Tᴏ PM !", callback_data=f"sendfiles#{key}")
@@ -481,7 +481,7 @@ async def quality_check(bot, query):
             btn.insert(0, [
                 InlineKeyboardButton("Lᴀɴɢᴜᴀɢᴇ", callback_data=f"select_lang#{userid}"),
                 InlineKeyboardButton("Qᴜᴀʟɪᴛʏꜱ", callback_data=f"Backup625#{userid}"),
-                InlineKeyboardButton("Sᴇʟᴇᴄᴛ Aɢᴀɪɴ", callback_data=f"Deep25K#{userid}")
+                InlineKeyboardButton("Sᴇʟᴇᴄᴛ Aɢᴀɪɴ", callback_data=f"Deep2213K#{userid}")
             ])
             btn.insert(0, [
                 InlineKeyboardButton("! Sᴇɴᴅ Aʟʟ Tᴏ PM !", callback_data=f"sendfiles#{key}")
@@ -587,7 +587,7 @@ async def seasons_check(bot, query):
             btn.insert(0, [
                 InlineKeyboardButton("Lᴀɴɢᴜᴀɢᴇ", callback_data=f"select_lang#{userid}"),
                 InlineKeyboardButton("Qᴜᴀʟɪᴛʏꜱ", callback_data=f"Backup625#{userid}"),
-                InlineKeyboardButton("Sᴇʟᴇᴄᴛ Aɢᴀɪɴ", callback_data=f"Deep25K#{userid}")
+                InlineKeyboardButton("Sᴇʟᴇᴄᴛ Aɢᴀɪɴ", callback_data=f"Deep2213K#{userid}")
             ])
             btn.insert(0, [
                 InlineKeyboardButton("! Sᴇɴᴅ Aʟʟ Tᴏ PM !", callback_data=f"sendfiles#{key}")
@@ -597,7 +597,7 @@ async def seasons_check(bot, query):
             btn.insert(0, [
                 InlineKeyboardButton("Lᴀɴɢᴜᴀɢᴇ", callback_data=f"select_lang#{userid}"),
                 InlineKeyboardButton("Qᴜᴀʟɪᴛʏꜱ", callback_data=f"Backup625#{userid}"),
-                InlineKeyboardButton("Sᴇʟᴇᴄᴛ Aɢᴀɪɴ", callback_data=f"Deep25K#{userid}")
+                InlineKeyboardButton("Sᴇʟᴇᴄᴛ Aɢᴀɪɴ", callback_data=f"Deep2213K#{userid}")
             ])
             btn.insert(0, [
                 InlineKeyboardButton("! Sᴇɴᴅ Aʟʟ Tᴏ PM !", callback_data=f"sendfiles#{key}")
@@ -643,7 +643,7 @@ async def seasons_check(bot, query):
     else:
         return await query.answer(f"Sᴏʀʀʏ, Nᴏ ғɪʟᴇs ғᴏᴜɴᴅ ғᴏʀ ʏᴏᴜʀ ᴏ̨ᴜᴇʀʏ {movie}.", show_alert=True)
 
-@Client.on_callback_query(filters.regex(r"^Deep25K"))
+@Client.on_callback_query(filters.regex(r"^Deep2213K"))
 async def select_seasons(bot, query):
     _, userid = query.data.split("#")
     if int(userid) not in [query.from_user.id, 0]:
@@ -1506,7 +1506,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
     elif query.data == "upi_info":
         buttons = [[
-            InlineKeyboardButton('📲 ꜱᴇɴᴅ ᴘᴀʏᴍᴇɴᴛ ꜱᴄʀᴇᴇɴꜱʜᴏᴛ ʜᴇʀᴇ', url=f"https://t.me/Deep25K")
+            InlineKeyboardButton('📲 ꜱᴇɴᴅ ᴘᴀʏᴍᴇɴᴛ ꜱᴄʀᴇᴇɴꜱʜᴏᴛ ʜᴇʀᴇ', url=f"https://t.me/Deep2213K")
         ],[
             InlineKeyboardButton('⇋ ʙᴀᴄᴋ ⇋', callback_data='purchase')
         ]]
@@ -1519,7 +1519,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
     elif query.data == "qr_info":
         buttons = [[
-            InlineKeyboardButton('📲 ꜱᴇɴᴅ ᴘᴀʏᴍᴇɴᴛ ꜱᴄʀᴇᴇɴꜱʜᴏᴛ ʜᴇʀᴇ', url=f"https://t.me/Deep25K")
+            InlineKeyboardButton('📲 ꜱᴇɴᴅ ᴘᴀʏᴍᴇɴᴛ ꜱᴄʀᴇᴇɴꜱʜᴏᴛ ʜᴇʀᴇ', url=f"https://t.me/Deep2213K")
         ],[
             InlineKeyboardButton('⇋ ʙᴀᴄᴋ ⇋', callback_data='purchase')
         ]]
@@ -1612,7 +1612,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('‼️ ᴅɪꜱᴄʟᴀɪᴍᴇʀ ‼️', callback_data='disclaimer'),
         ], [
-            InlineKeyboardButton('• ᴏᴡɴᴇʀ •', url=f"https://t.me/Deep25K"),
+            InlineKeyboardButton('• ᴏᴡɴᴇʀ •', url=f"https://t.me/Deep2213K"),
             InlineKeyboardButton('• ꜱᴛᴀᴛꜱ •', callback_data='stats')
         ], [
             InlineKeyboardButton('⇋ ʙᴀᴄᴋ ᴛᴏ ʜᴏᴍᴇ ⇋', callback_data='start')
@@ -2008,7 +2008,7 @@ async def auto_filter(client, msg, spoll=False):
             btn.insert(0, [
                 InlineKeyboardButton("Lᴀɴɢᴜᴀɢᴇs", callback_data=f"select_lang#{message.from_user.id}"),
                 InlineKeyboardButton("Qᴜᴀʟɪᴛʏꜱ", callback_data=f"Backup625#{message.from_user.id}"),
-                InlineKeyboardButton("Sᴇᴀꜱᴏɴꜱ", callback_data=f"Deep25K#{message.from_user.id}")
+                InlineKeyboardButton("Sᴇᴀꜱᴏɴꜱ", callback_data=f"Deep2213K#{message.from_user.id}")
             ])
             btn.insert(0, [
                 InlineKeyboardButton("! Sᴇɴᴅ Aʟʟ Tᴏ PM !", callback_data=f"sendfiles#{key}"),
@@ -2018,7 +2018,7 @@ async def auto_filter(client, msg, spoll=False):
             btn.insert(0, [
                 InlineKeyboardButton("Lᴀɴɢᴜᴀɢᴇs", callback_data=f"select_lang#{message.from_user.id}"),
                 InlineKeyboardButton("Qᴜᴀʟɪᴛʏꜱ", callback_data=f"Backup625#{message.from_user.id}"),
-                InlineKeyboardButton("Sᴇᴀꜱᴏɴꜱ", callback_data=f"Deep25K#{message.from_user.id}")
+                InlineKeyboardButton("Sᴇᴀꜱᴏɴꜱ", callback_data=f"Deep2213K#{message.from_user.id}")
             ])
             btn.insert(0, [
                 InlineKeyboardButton("! Sᴇɴᴅ Aʟʟ Tᴏ PM !", callback_data=f"sendfiles#{key}"),
