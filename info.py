@@ -59,7 +59,7 @@ PREMIUM_USER = [int(user) if id_pattern.search(user) else user for user in envir
 STREAM_SITE = (environ.get('STREAM_SITE', 'shortxlinks.com'))
 STREAM_API = (environ.get('STREAM_API', '7709a824575640328a543091da04875a63be6d95'))
 STREAMHTO = (environ.get('STREAMHTO', 'https://t.me/HOWTO615'))
-STREAM_LINK_MODE = is_enabled((environ.get('STREAM_LINK_MODE', "True")), False)
+STREAM_LINK_MODE = is_enabled((environ.get('STREAM_LINK_MODE', "False")), False)
 
 # Others
 IS_VERIFY = is_enabled((environ.get('IS_VERIFY', 'False')), False)
